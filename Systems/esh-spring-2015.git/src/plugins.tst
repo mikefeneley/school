@@ -1,0 +1,22 @@
+= Plugins Tests
+1 plugins/bmi_calculator_test.py
+1 plugins/cmdhist_test.py
+1 plugins/convertnum_test.py
+1 plugins/groupyak_drake_test.py
+1 plugins/ffc_test.py
+1 plugins/flip_test.py
+1 plugins/groupa1c_gcd_test.py
+1 plugins/jamesr66_gajarmin_sandbox_test.py
+1 plugins/systemInfo_test.py
+1 plugins/temp_converter_test.py
+1 plugins/timer_test.py
+1 plugins/vt_test.py
+1 plugins/yahtzee_test.py
+1 plugins/202_multTable_test.py
+1 plugins/cowsay_test.py
+1 plugins/groupvgg_tipcal_test.py
+1 plugins/piglatin_test.py
+1 plugins/pipeline_history_test.py
+1 plugins/roll-die_test.py
+1 plugins/translate_test.py
+1 plugins/joke_test.py

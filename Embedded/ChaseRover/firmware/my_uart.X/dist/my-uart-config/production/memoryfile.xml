@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<project>                                  
+  <executable name="dist/my-uart-config/production/my_uart.X.production.elf">                 
+    <memory name="program">                 
+      <units>bytes</units>                 
+      <length>531968</length>                 
+      <used>28620</used>                     
+      <free>503348</free>                     
+    </memory>                              
+    <memory name="data">              
+      <units>bytes</units>                 
+      <length>131072</length>                 
+      <used>82604</used>                     
+      <free>48468</free>                     
+    </memory>                              
+  </executable>                            
+</project>                                 

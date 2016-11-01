@@ -1,0 +1,145 @@
+Student Information
+-------------------
+Michael Feneley (mfeneley)
+Andrew Ciambrone (andrjc4)
+
+How to execute the shell
+------------------------
+
+Create an executable by using the "make command.
+Then run the executable by typing "./esh"
+
+Important Notes
+---------------
+
+Our shell implements both basic and extended functionality.
+Most of our code is contained in the helper.c and job-manager.c
+files. Plugins were implemented in plugin.c.
+
+We relied heaviliy on the GNU website detailing shell implmentation.
+We used stack overflow and the man pages as a reference.
+We used the provided code written by Godmar Bach from the website faq section.
+
+GNU Reference:
+http://www.gnu.org/software/libc/manual/html_node/Initializing-the-Shell.html
+
+
+Description of Base Functionality
+---------------------------------
+
+We pass all base functionality tests.
+
+We implemented the jobs command by keeping
+a list of current job. When the jobs command
+is invoked, we traverse the list and print
+the required information about each command.
+
+We implemnted the fg command by having the shell
+traverse the list from back to front 
+looking for a background or stopped job. It then gives
+that job command of the terminal using Professor Bach's
+provided funciton.
+
+We implemnted the bg function by searching for the stopped
+job and sending it a SIGCONT signal.
+
+We implemnted kill by traversing the list and then sending the
+SIGTERM signal to the job.
+
+We implemented the stop function by traversing the list and
+sending the proper job the SIGTSTP signal.
+
+We implemnted \ˆC by using the SIGCHLD handler to catch
+the terminated child process's signal and then removing
+it from the list.
+
+We implemented \ˆZ by using the SIGCHLD handler to catch 
+the child process's signal and then update the jobs status.
+
+
+Description of Extended Functionality
+-------------------------------------
+<describe your IMPLEMENTATION of the following functionality:
+
+We implemented I/O and pipes by checking the nature of the
+job and updating the file descriptors accordingly.
+
+We implemnted exclusive access by managing terminal access.
+
+
+
+List of Plugins Implemented
+
+
+
+
+
+
+
+
+List of Plugins Implemented
+
+(Written by your team)
+	systemInfo.so
+	Prints out system information
+
+(Written By Others)
+	cowsay.so
+	akatkov_treiter
+
+	202_multTable.so
+	alisherp_amind1
+
+	translate.so
+	akatkov_treiter
+
+	ffc.so
+	alisiraj_neily1
+
+	vt.so
+	alisiraj_neily1
+
+	piglatin.so
+	bgill93_ethan01
+
+	groupyak_drake.so
+	blissard_jbenj93
+
+	pipeline_history.so
+	brandonf_gfoster5
+
+	yahtzee.so
+	codyc_richjd9
+
+	groupa1c_gcd.so
+	conorpp_nluther
+
+	roll-die.so
+	dpho_rtm8889
+
+	timer.so 
+	dpho_rtm8889
+
+	bmi_calculator.so
+	eyobest_ning
+
+	jamesr66_gajarmin_sandbox.so
+	jamesr66_gajarmin
+
+	convertnum.so
+	jareds94_coreym94
+
+	temp_converter.so
+	samja_joevt
+
+	cmdhist.so
+	sfbahr_maxwell3
+
+	flip.so 
+	shb279_rpc80
+
+	groupvgg_tipcal.so
+	ching93_armendo
+
+	joke.so
+	wvicto7_aaronk1

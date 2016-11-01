@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/C:/microchip/harmony/v1_06/apps/Chase/firmware/src/coordinator_public.c</file>
+            <file>file:/C:/microchip/harmony/v1_06/apps/Chase/firmware/src/sensor.c</file>
+            <file>file:/C:/microchip/harmony/v1_06/apps/Chase/firmware/src/system_config/my-uart-config/system_tasks.c</file>
+            <file>file:/C:/microchip/harmony/v1_06/apps/Chase/firmware/src/system_config/my-uart-config/system_exceptions.c</file>
+            <file>file:/C:/microchip/harmony/v1_06/apps/Chase/firmware/src/debug.h</file>
+            <file>file:/C:/microchip/harmony/v1_06/apps/Chase/firmware/src/system_config/my-uart-config/system_interrupt.c</file>
+            <file>file:/C:/microchip/harmony/v1_06/apps/Chase/firmware/src/coordinator.c</file>
+            <file>file:/C:/microchip/harmony/v1_06/framework/system/devcon/src/sys_devcon.c</file>
+        </group>
+    </open-files>
+</project-private>

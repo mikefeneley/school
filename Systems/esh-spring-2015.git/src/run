@@ -1,0 +1,2 @@
+PATH=~cs3214/bin:$PATH
+make LDFLAGS=-L/home/courses/cs3214/flexlibtmp

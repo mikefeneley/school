@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<project>                                  
+  <executable name="dist/my-uart-config/debug/my_uart.X.debug.elf">                 
+    <memory name="program">                 
+      <units>bytes</units>                 
+      <length>531968</length>                 
+      <used>28928</used>                     
+      <free>503040</free>                     
+    </memory>                              
+    <memory name="data">              
+      <units>bytes</units>                 
+      <length>131072</length>                 
+      <used>83116</used>                     
+      <free>47956</free>                     
+    </memory>                              
+  </executable>                            
+</project>                                 
